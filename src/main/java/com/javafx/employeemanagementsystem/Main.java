@@ -8,10 +8,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class MainApplication extends Application {
+public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        Parent root = FXMLLoader.load(MainApplication.class.getResource("main-view.fxml"));
+        Parent root = FXMLLoader.load(Main.class.getResource("employee-view.fxml"));
 
         Scene scene = new Scene(root);
         stage.setTitle("Employee Management System");
